@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+  background-color: darkblue;
+  color: wheat;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.container{
+  background-color: rgb(94, 94, 224);
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+.container > h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+}
+
+.container > h2{
+  text-align: center;
+  margin: 30px;
+  color:rgb(134, 15, 15);
+  font-size: 1.5rem;
+}
+input,textarea,button{
+  padding: 20px;
+  border: 1px solid rgb(32, 3, 3);
+  border-radius: 10px;
+  margin: 10px 0; 
+}
+button{
+  background-color: yellow;
+  margin: 8px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+ /* *{
+  border: 1px solid red;
+
+ } */
+.task{
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.task>div{
+  width: 100%;
+}
+
+.task>div>p{
+  font-weight: bold;
+}
+
+.task button{
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task button:hover{
+  background-color: rgb(200, 224, 42);
+}

@@ -1,4 +1,4 @@
-Uploading bandicam 2023-07-22 20-51-57-808.mp4…
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

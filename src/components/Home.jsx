@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div className='container'>
         <h1>Kam Karle Bhai</h1>
-        <h2>Abe Anand Padh Le Bhai!</h2>
+        <h2>Get,Set,Go...!</h2>
         <form onSubmit={submitHandler}>
             <input type="text" placeholder='Title' value={title} onChange={(e)=>
             setTitle(e.target.value)}/>
